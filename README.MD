@@ -22,20 +22,6 @@ code {
     border-radius: 3px;
     font-size: 17px;
 }
-.copy-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.copy-btn:focus {
-    outline: none;
-}
 p{
     line-height: 35px;
     font-size: 15px;
@@ -51,7 +37,6 @@ p{
             import matplotlib.pyplot as plt<br>
             import seaborn as sns
         </code>
-        <button class="copy-btn" onclick="copyToClipboard('code-block')">Copy</button></pre><br><br><br>
     <h3>Data preperation</h3>
         <pre><code>df = pd.read_csv('data/Global_Education.csv')</code></pre>
         <p>
@@ -91,20 +76,3 @@ p{
 </div>
 
 
-
-
-
-
-
-<script>
-        function copyToClipboard(elementId) {
-            var copyText = document.getElementById(elementId).innerText;
-            var textArea = document.createElement("textarea");
-            textArea.value = copyText;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand("Copy");
-            textArea.remove();
-            alert("Copied to clipboard!");
-        }
-</script>
