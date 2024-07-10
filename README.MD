@@ -22,6 +22,20 @@ code {
     border-radius: 3px;
     font-size: 17px;
 }
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.copy-btn:focus {
+    outline: none;
+}
 p{
     line-height: 35px;
     font-size: 15px;
