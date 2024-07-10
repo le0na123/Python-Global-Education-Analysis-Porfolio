@@ -10,7 +10,9 @@ import seaborn as sns
 ```
 
 ## Data preparation
-```df = pd.read_csv('data/Global_Education.csv')```
+``` python
+df = pd.read_csv('data/Global_Education.csv')
+```
 
 *Countries and Areas: Name of the countries and areas.<br>
 *Latitude: Latitude coordinates of the geographical location.<br>
@@ -43,4 +45,7 @@ import seaborn as sns
 *Unemployment_Rate: Unemployment rate in the respective countries/areas.<br>
 
 ## Change name of some columns
-```df.rename(columns={'Countries and areas': 'Countries'}, inplace=True)```
+``` python
+df.rename(columns={'Countries and areas': 'Countries'}, inplace=True)
+
+```
