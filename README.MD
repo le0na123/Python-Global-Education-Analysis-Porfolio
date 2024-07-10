@@ -1,47 +1,3 @@
-<style>
-h1{
-    text-align: center;
-    text-transform: uppercase;
-}
-h3{
-    font-size: 25px;
-}
-div.container{
-    width: 50%;
-    margin: auto;
-}
-pre{
-    padding: 10px;
-    border-radius: 5px;
-     position: relative;
-}
-code {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #f4f4f4;
-    padding: 2px 4px;
-    border-radius: 3px;
-    font-size: 17px;
-}
-.copy-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.copy-btn:focus {
-    outline: none;
-}
-p{
-    line-height: 35px;
-    font-size: 15px;
-}
-</style>
-
 <h1 style="">Global Education Analysis</h1>
 <div class="container">
     <h3>Import libraries</h3><br>
@@ -85,8 +41,6 @@ p{
             * Unemployment_Rate: Unemployment rate in the respective countries/areas.<br></p>
      <h3>Chage name of some columns</h3>
      <pre><code>df.rename(columns={'Countries and areas': 'Countries'}, inplace=True)</code></pre>
-
-       
 </div>
 
 
